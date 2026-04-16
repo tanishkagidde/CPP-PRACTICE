@@ -5,11 +5,11 @@ using namespace std;
 class HotelBill
 {
 private:
-// Data members (private for data security)
-int tableNo, items; // Stores table number and number of items
-string customerName; // Stores customer name
-long long contact; // Stores customer contact number
-float total, discount, payable; // Stores bill details
+// Data members 
+int tableNo, items;
+string customerName; 
+long long contact; 
+float total, discount, payable; 
 public:
 // Member function to accept customer details
 void getCustomerDetails()
